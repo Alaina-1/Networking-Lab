@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/alaina./Documents/GitHub/Networking-Lab/TCP/tcpclient'
+relocations:     []
+...

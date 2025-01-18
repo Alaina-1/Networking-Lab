@@ -21,7 +21,7 @@ int main(void) {
         return -1;
     }
     
-    printf("Socket created successfully\n");
+    printf("Socket created successfully \n");
     
     // Set port and IP the same as server-side:
     server_addr.sin_family = AF_INET;

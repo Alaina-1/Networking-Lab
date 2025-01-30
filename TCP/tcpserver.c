@@ -63,7 +63,6 @@ sin_addr), ntohs(client_addr.sin_port));
     // Respond to client:
     printf("Enter message to client: ");
     fgets(server_message, sizeof(server_message), stdin);
-    server_message[strcspn(server_message, "\n")] = 0;
     
     if (send(client_sock, server_message, strlen(server_message), 0) < 0){
         printf("Can't send\n");
